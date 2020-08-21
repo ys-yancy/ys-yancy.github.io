@@ -19,14 +19,14 @@
 	   function bfoo() {}
 	}
 ```
-1.LexicallyDeclaredNames（词法声明名称列表）：« bb,bc,bfoo,BFoo »
-2.LexicallyScopedDeclarations（词法作用域声明列表）：« let bb=1,const bc=1,function bfoo(){},class BFoo{} »
-3.VarDeclaredNames（var声明名称列表）：« ba »
-4.VarScopedDeclarations（var作用域声明列表）：« ba=1 »
-5.TopLevelLexicallyDeclaredNames（顶级词法声明名称列表）：« b,c,Foo »
-6.TopLevelLexicallyScopedDeclarations（顶级词法作用域声明列表）：« let b=1,const c=1,class Foo{} »
-7.TopLevelVarDeclaredNames（顶级var声明名称列表）：« a,ba,bfoo »
-8.TopLevelVarScopedDeclarations（顶级var作用域声明列表）：« a=1,ba=1,function foo(){}»
+1. LexicallyDeclaredNames（词法声明名称列表）：« bb,bc,bfoo,BFoo »
+2. LexicallyScopedDeclarations（词法作用域声明列表）：« let bb=1,const bc=1,function bfoo(){},class BFoo{} »
+3. VarDeclaredNames（var声明名称列表）：« ba »
+4. VarScopedDeclarations（var作用域声明列表）：« ba=1 »
+5. TopLevelLexicallyDeclaredNames（顶级词法声明名称列表）：« b,c,Foo »
+6. TopLevelLexicallyScopedDeclarations（顶级词法作用域声明列表）：« let b=1,const c=1,class Foo{} »
+7. TopLevelVarDeclaredNames（顶级var声明名称列表）：« a,ba,bfoo »
+8. TopLevelVarScopedDeclarations（顶级var作用域声明列表）：« a=1,ba=1,function foo(){}»
 注：« »结构是ECMAScript中的一个规范类型，表示一个List，具体你可以认为它是一个类数组（当然实际肯定不是，只是方便理解）
 
 
