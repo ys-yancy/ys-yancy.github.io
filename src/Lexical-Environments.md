@@ -22,3 +22,5 @@
 5. 让blockValue成为执行block中的代码的结果
 6. 把正在运行的执行上下文（running execution context）的LexicalEnvironment设为oldEnv
 7. 返回blockValue
+
+参考： https://segmentfault.com/a/1190000012162360
